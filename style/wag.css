@@ -1,6 +1,7 @@
 body{
 	background-color: #000;
 	font-family: "muli", sans-serif;
+	width:100%;
 }
 .container{
 	margin:2% 3% 2% 6%;
@@ -14,11 +15,25 @@ body{
 .cat{
 	margin-left: -5%;
 }
+@media screen and (max-width: 991px){
+	.cat{
+		margin-left: 0.2%;
+	}
+}
 .search{
 	padding-left:5%;
 }
+.search{
+	padding-left:3.5%;
+}
 .menu{
 	padding-left:15%;
+
+}
+@media screen and (max-width: 991px){
+	.menu{
+		padding-left:3%;
+	}
 }
 .classick{
 	margin-left: 
@@ -36,6 +51,11 @@ body{
 }
 .img{
 	margin-top: 10%;
+}
+@media screen and (max-width: 991px){
+	.img_volks{
+		width:100%;
+	}
 }
 .volkswagen{
 	font-size:44px;
@@ -57,11 +77,34 @@ body{
 	margin-top: 35%;
 
 }
+@media screen and (max-width: 991px){
+	.num_1965{
+	margin-top: 35%;
+	transform:rotate(359deg);
+}
+}
+.nav-right{
+	width:20px;
+	font-weight: 50;
+}
+@media screen and (max-width: 1199px){
+	.nav-right{
+		margin-left: -17%;
+	}
+}
 .social{
 transform:rotate(270deg);
 margin-top: 23%;
 font-weight: bold;
 font-size: 11px;
+}
+@media screen and (max-width: 991px){
+	.social{
+		padding-left: 412px;
+		transform:rotate(360deg);
+		position:relative;
+		top:-37px;
+	}
 }
 .inst{
 	padding-left: 30px;
@@ -78,6 +121,11 @@ font-size: 11px;
 	        position: relative;
 	        top:-210px;
 }
+@media screen and (max-width: 1199px){
+	.left{
+		top:-334px;
+	}
+}
 .right{
 	border:0.5px solid #000;
 	width:30px;
@@ -85,8 +133,24 @@ font-size: 11px;
     margin-left: 3%;
     -webkit-transform: rotate(90deg);
     position: relative;
-	top:-60px;
+	top:-19px;
 
+}
+@media screen and (max-width: 1300px){
+	.right{
+		top:-10px;
+		position:relative;
+	}
+}
+@media screen and (max-width: 991px){
+	.right{
+		display:none;
+	}
+}
+@media screen and (max-width: 991px){
+	.left{
+		display:none;
+	}
 }
 .my_foot{
 	background-color: #000;
@@ -103,6 +167,11 @@ font-size: 11px;
 }
 .num_1{
 	padding-left:
+}
+@media screen and (max-width: 991px){
+	.num_1{
+		display:none;
+	}
 }
 .num_5{
 	padding-left:
@@ -130,7 +199,18 @@ font-size: 11px;
    margin-top: -7%;
 }
 
+@media screen and (max-width: 1111px){
+	.img_arr{
+		margin-left: 89%;
+	}
+}
+@media screen and (max-width: 1023px){
+	.img_arr{
+		margin-left: 94%;
+	}
+}
 .left-arrow{
 	position: relative;
 	left:-23%;
+	width:18px;
 }
