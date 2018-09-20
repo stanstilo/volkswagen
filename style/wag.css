@@ -83,6 +83,12 @@ body{
 	transform:rotate(359deg);
 }
 }
+@media screen and (max-width: 1199px){
+	.num_1965{
+	margin-top: 36%;
+	
+}
+}
 .nav-right{
 	width:20px;
 	font-weight: 50;
@@ -123,7 +129,7 @@ font-size: 11px;
 }
 @media screen and (max-width: 1199px){
 	.left{
-		top:-334px;
+		top:-262px;
 	}
 }
 .right{
